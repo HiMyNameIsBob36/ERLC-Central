@@ -4,15 +4,16 @@ console.log("Loading custom header & footer.")
 class MyHeader extends HTMLElement {
   connectedCallback() {
       this.innerHTML = `
-     <h1>The Resume of ME :D</h1>
-      <div id="navigationButtons">
-        <button onclick="window.location.href = 'index.html'">Home</button>
-        <button onclick="window.location.href = 'HTMLGames.html'">HTML Games</button>
-        <button onclick="window.location.href = 'game1.html'">The Bridge</button>
-        <button onclick="window.location.href = 'game2.html'">The Pizza Ria</button>
-        <button onclick="window.location.href = 'game3.html'">Game #3</button>
-      </div>
-    `
+<div class="navbar">
+<div class="logo">ERLC<span>X</span></div>
+
+<div class="search"><input placeholder="Search creations, users, groups..."></div>
+
+<div class="nav-right">
+<button class="create-btn">+ Create New</button>
+<div class="profile">HeyItBob36</div>
+</div>
+</div>`
   }
 }
 
