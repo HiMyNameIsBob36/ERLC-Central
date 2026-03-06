@@ -55,4 +55,4 @@ class MyFooter extends HTMLElement {
 }
 
 customElements.define('my-header', MyHeader)
-customElements.define('my-leagal', MyFooter)
+customElements.define('my-legal', MyFooter)
