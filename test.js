@@ -28,9 +28,9 @@ function updateCard(elementId, item) {
 
     container.querySelector("#title").textContent = item.name;
 
-    container.querySelector("#link").href = `https://url.com/${item.id}`;
+    container.querySelector("#link").href = `https://erlccentral.netllfiy.app/${item.id}`;
 
-    container.querySelector("#thumb").src = `https://url.com/image/${item.id}`;
+    container.querySelector("#thumb").src = `https://erlccentral.netlify.app/image/${item.id}`;
 }
 
 // --- Execution ---
