@@ -21,18 +21,6 @@ const data = {
   }
 }
 
-// Stats
-document.getElementById("uploads").textContent = data.stats.uploads;
-document.getElementById("creators").textContent = data.stats.creators;
-document.getElementById("favorites").textContent = data.stats.favorites;
-document.getElementById("members").innerText = data.stats.members;
-// Featured
-document.getElementById("featured01").textContent = data.featured.id.01;
-document.getElementById("featured02").textContent = data.featured.id.02;
-// Trending
-document.getElementById("trending01").textContent = data.trending.id.04;
-document.getElementById("trending02").textContent = data.trending.id.05;
-
 // Helper function to update a "Card" (Title, Link, Image)
 function updateCard(elementId, item) {
     const container = document.getElementById(elementId);
@@ -50,9 +38,10 @@ function updateCard(elementId, item) {
 
 // --- Execution ---
 
-// Stats (Keeping your existing logic)
 document.getElementById("uploads").textContent = data.stats.uploads;
 document.getElementById("creators").textContent = data.stats.creators;
+document.getElementById("favorites").textContent = data.stats.favorites;
+document.getElementById("members").innerText = data.stats.members;
 
 // Featured (Accessing the Array)
 const featured = data.home.featured; 
