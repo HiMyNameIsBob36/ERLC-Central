@@ -211,7 +211,9 @@ border-radius:6px;
 font-size:14px;
 }
 
-.footer{
+/* FOOTER */
+
+.my-legal{
 margin-top:100px;
 padding:40px;
 background:#071018;
@@ -221,10 +223,7 @@ border:1px solid rgba(255,255,255,0.05);
 
 .footer-grid{
 display:grid;
-
-/* THIS MAKES IT AUTO ADAPT */
 grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-
 gap:40px;
 }
 
