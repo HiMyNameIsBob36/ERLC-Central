@@ -25,7 +25,7 @@ const data = {
 document.getElementById("uploads").textContent = data.stats.uploads;
 document.getElementById("creators").textContent = data.stats.creators;
 document.getElementById("favorites").textContent = data.stats.favorites;
-document.getElementById("members").textContent = data.stats.members;
+document.getElementById("members").innerText = data.stats.members;
 
 /*console.log('Loading home page');
 
