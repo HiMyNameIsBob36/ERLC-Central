@@ -213,7 +213,7 @@ font-size:14px;
 
 /* FOOTER */
 
-.my-legal{
+.footer {
 margin-top:100px;
 padding:40px;
 background:#071018;
@@ -257,7 +257,7 @@ font-size:14px;
 }
 
 .footer-column a:hover{
-color:white;
+color: #2d7fff;
 }
 
 .footer-bottom{
