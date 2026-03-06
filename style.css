@@ -29,6 +29,7 @@ animation: riseUp 0.9s cubic-bezier(.22,1,.36,1);
 display: flex;
 position: fixed;
 z-index: 1;
+width: 100%;
 align-items: center;
 justify-content: space-between;
 padding: 12px 30px;
