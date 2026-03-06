@@ -26,14 +26,11 @@ function updateCard(elementId, item) {
     const container = document.getElementById(elementId);
     if (!container) return;
 
-    // 1. Change the Title (Text)
-    container.querySelector(".title").textContent = item.name;
+    container.querySelector("#title").textContent = item.name;
 
-    // 2. Change the Link (href)
-    container.querySelector(".link").href = `https://url.com/${item.id}`;
+    container.querySelector("#link").href = `https://url.com/${item.id}`;
 
-    // 3. Change the Image (src)
-    container.querySelector(".thumb").src = `https://url.com/image/${item.id}`;
+    container.querySelector("#thumb").src = `https://url.com/image/${item.id}`;
 }
 
 // --- Execution ---
