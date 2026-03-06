@@ -7,7 +7,9 @@ class MyHeader extends HTMLElement {
 <div class="navbar">
 <div class="logo">ERLC<span>X</span></div>
 
+<form method="get">
 <div class="search"><input placeholder="Search creations, users, groups..."></div>
+</form>
 
 <div class="nav-right">
 <button class="create-btn">+ Create New</button>
