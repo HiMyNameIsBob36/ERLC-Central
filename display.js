@@ -1,6 +1,6 @@
 fetch("data.json")
-.then(res => res.json())
-.then(data => {
+/*.then(res => res.json())
+.then(data => {*/
 
 document.querySelector("#uploads").textContent = data.stats.uploads;
 document.querySelector("#creators").textContent = data.stats.creators;
