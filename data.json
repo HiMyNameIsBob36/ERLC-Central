@@ -5,12 +5,16 @@
     "favorites": "9.3K",
     "members": "6.0K"
   },
-
-  "links": {
-    "marketplace": [
-      {"name":"Browse","url":"/browse"},
-      {"name":"Groups","url":"/groups"},
-      {"name":"Upload","url":"/upload"}
+  "home": {
+    "featured": [
+      {"name":"Discord Template","id":"01"},
+      {"name":"Server Emojis","id":"02},
+      {"name":"Staff Training","id":"03"}
+    ],
+    "trending": [
+      {"name":"N/A","id":"04"},
+      {"name":"N/A","id":"05"},
+      {"name":"N/A","id":"06"}
     ]
   }
 }
