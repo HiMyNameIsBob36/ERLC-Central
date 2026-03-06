@@ -190,25 +190,25 @@ colour: white;
 
 /* TRENDING */
 
-.trending-item{
-display:flex;
-gap:12px;
-background:#0f1624;
-padding:10px;
-border-radius:10px;
-margin-bottom:10px;
-align-items:center;
+.trending-item {
+display: flex;
+gap: 12px;
+background: #0f1624;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 10px;
+align-items: center;
 }
 
-.trending-item img{
-width:60px;
-height:40px;
-object-fit:cover;
-border-radius:6px;
+.trending-item img {
+width: 60px;
+height: 40px;
+object-fit: cover;
+border-radius: 6px;
 }
 
-.trending-text{
-font-size:14px;
+.trending-item p {
+font-size: 14px;
 colour: white;
 }
 
