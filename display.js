@@ -1,4 +1,33 @@
-console.log('Loading home page');
+console.log('Loading home page')
+
+const data = {
+  "stats": {
+    "uploads": "0",
+    "creators": "0",
+    "favorites": "0",
+    "members": "1"
+  },
+  "home": {
+    "featured": [
+      {"name":"Discord Template","id":"01"},
+      {"name":"Server Emojis","id":"02"},
+      {"name":"Staff Training","id":"03"}
+    ],
+    "trending": [
+      {"name":"N/A","id":"04"},
+      {"name":"N/A","id":"05"},
+      {"name":"N/A","id":"06"}
+    ]
+  }
+}
+
+
+document.getElementById("uploads").textContent = data.stats.uploads;
+document.getElementById("creators").textContent = data.stats.creators;
+document.getElementById("favorites").textContent = data.stats.favorites;
+document.getElementById("members").textContent = data.stats.members;
+
+/*console.log('Loading home page');
 
 fetch("https://erlccentral.netlify.app/data.json")
 .then(response => response.json())
@@ -9,5 +38,6 @@ document.getElementById("creators").textContent = data.stats.creators;
 document.getElementById("favorites").textContent = data.stats.favorites;
 document.getElementById("members").textContent = data.stats.members;
 })
-.catch(error => console.error('Error fetching data:', error));
+.catch(error => console.error('Error fetching data:', error));*/
+
 
