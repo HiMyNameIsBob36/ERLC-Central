@@ -1,4 +1,4 @@
-fetch("data.json")
+fetch("test.json")
 .then(response => response.json())
 .then(data => {
 
