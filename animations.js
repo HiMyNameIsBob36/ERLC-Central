@@ -1,5 +1,6 @@
+const reveals = document.querySelectorAll(".reveal");
+
 function revealOnScroll() {
-  const reveals = document.querySelectorAll(".reveal");
   const windowHeight = window.innerHeight;
 
   reveals.forEach((el) => {
