@@ -1,6 +1,6 @@
 console.log('Loading home page');
 
-fetch("data.json")
+fetch("https://erlccentral.netlify.app/data.json")
 .then(response => response.json())
 .then(data => {
 
