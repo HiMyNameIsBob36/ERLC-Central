@@ -14,9 +14,9 @@ const data = {
       {"name":"Staff Training","id":"03"}
     ],
     "trending": [
-      {"name":"N/A","id":"04"},
-      {"name":"N/A","id":"05"},
-      {"name":"N/A","id":"06"}
+      {"name":"NA","id":"04"},
+      {"name":"NA","id":"05"},
+      {"name":"NA","id":"06"}
     ]
   }
 }
