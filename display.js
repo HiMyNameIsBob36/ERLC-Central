@@ -14,30 +14,21 @@ const data = {
       {"name":"Staff Training","id":"03"}
     ],
     "trending": [
-      {"name":"NA","id":"04"},
-      {"name":"NA","id":"05"},
-      {"name":"NA","id":"06"}
+      {"name":"Roles","id":"04"},
+      {"name":"Roles","id":"05"},
+      {"name":"Roles","id":"06"}
     ]
   }
 }
 
-
+// Stats
 document.getElementById("uploads").textContent = data.stats.uploads;
 document.getElementById("creators").textContent = data.stats.creators;
 document.getElementById("favorites").textContent = data.stats.favorites;
 document.getElementById("members").innerText = data.stats.members;
-
-/*console.log('Loading home page');
-
-fetch("https://erlccentral.netlify.app/data.json")
-.then(response => response.json())
-.then(data => {
-
-document.getElementById("uploads").textContent = data.stats.uploads;
-document.getElementById("creators").textContent = data.stats.creators;
-document.getElementById("favorites").textContent = data.stats.favorites;
-document.getElementById("members").textContent = data.stats.members;
-})
-.catch(error => console.error('Error fetching data:', error));*/
-
-
+// Featured
+document.getElementById("featured01").textContent = data.featured.id.01;
+document.getElementById("featured02").textContent = data.featured.id.02;
+// Trending
+document.getElementById("trending01").textContent = data.trending.id.04;
+document.getElementById("trending02").textContent = data.trending.id.05;
