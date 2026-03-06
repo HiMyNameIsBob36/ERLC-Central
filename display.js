@@ -1,3 +1,5 @@
+console.log('Loading home page');
+
 fetch("data.json")
 .then(response => response.json())
 .then(data => {
